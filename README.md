@@ -3,6 +3,11 @@
 ## Introduction 📌
 Sliding Window is a commonly used technique to solve problems related to subarrays or substrings. Instead of recalculating results for every subarray, we **slide** a window across the data and update results accordingly. This technique greatly improves efficiency for problems involving contiguous segments.
 
+## Table of Contents 📑
+- [Types of Sliding Window Problems](#types-of-sliding-window-problems)
+- [Advantages of Sliding Window](#advantages-of-sliding-window)
+- [Common Use Cases](#common-use-cases)
+  
 ## Types of Sliding Window Problems ✏️ 
 1. 🧩 **Fixed Size Sliding Window**: The window size remains constant throughout.
 2. 🧪 **Variable Size Sliding Window**: The window size changes dynamically based on conditions.
@@ -11,7 +16,6 @@ Sliding Window is a commonly used technique to solve problems related to subarra
 - **Optimized Time Complexity**: Reduces repetitive computations by processing overlapping elements only once.
 - **Memory Efficiency**: Only a subset of the data is stored and processed at a time.
 - **Dynamic Adaptability**: Especially useful when solving problems with variable conditions like finding maximum/minimum subarray lengths.
-
 
 ## Common Use Cases: 👀
 - **Constant Size Window**.
